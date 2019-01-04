@@ -15,6 +15,9 @@
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
+//= require angular/lib/angular.min
+//= require angular/app/ecommerce_app
+//= require_tree ./angular/controllers/
 //= require i18n
 //= require i18n.js
 //= require i18n/translations
