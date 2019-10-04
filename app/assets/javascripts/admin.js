@@ -16,6 +16,9 @@
 //= require activestorage
 //= require twitter/bootstrap
 //= require bootstrap
+//= require angular/lib/angular.min
+//= require angular/app/ecommerce_app
+//= require_tree ./angular/controllers/
 //= require backend/metisMenu.min
 //= require backend/startmin
 //= require_tree ../../../vendor/javascripts/backend
@@ -26,3 +29,4 @@
 //= require i18n/translations
 //= require backend/users
 //= require turbolinks
+

@@ -1,5 +1,6 @@
 <section class="list-order">
-  <div class="container-fluid">
+  <div class="container-fluid" ng-controller="OrderController as vm">
+
     <div class="row">
       <div class="col-md-4">
         <h2><%= t "orders.list_order" %></h2>
@@ -29,7 +30,10 @@
         <%= render @orders %>
       </tbody>
     </table>
-
-    <%= will_paginate %>
+    <button class="btn" ng-click="vm.click()">refresh</button>
+    <div ng-bind="test"></div>
+    <div ng-bind="btn"></div>
+    {{1+1}}
+    <%= will_paginate @orders %>
   </div>
 </section>
